@@ -1,0 +1,1481 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      }
+    ],
+    "filters": [],
+    "genome_annotations": {
+      "HA": {
+        "end": 1721,
+        "seqid": "GB/H1N1_S4.gb",
+        "start": 21,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1752,
+        "seqid": "GB/H1N1_S4.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "BVIC_UK_Dataset",
+    "updated": "2020-02-17"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA: T212P, A245T, R296K, D317G"
+              },
+              "mutations": {
+                "HA": [
+                  "T212P",
+                  "A245T",
+                  "R296K",
+                  "D317G"
+                ],
+                "nuc": [
+                  "A654C",
+                  "G753A",
+                  "G907A",
+                  "A970G"
+                ]
+              }
+            },
+            "name": "REFERENCE_B/VICTORIA/304/2006_EPI_ISL_118645_HA",
+            "node_attrs": {
+              "div": 0.006052838237632478,
+              "num_date": {
+                "value": 2006.4298425744273
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA: R213K, P214S, R287K"
+              },
+              "mutations": {
+                "HA": [
+                  "R213K",
+                  "P214S",
+                  "R287K"
+                ],
+                "nuc": [
+                  "G658A",
+                  "C660T",
+                  "G880A"
+                ]
+              }
+            },
+            "name": "REFERENCE_B/Malaysia/2506/2004_EPI_ISL_29398_HA",
+            "node_attrs": {
+              "div": 0.00550211975730543,
+              "num_date": {
+                "value": 2005.9916158349126
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000029",
+        "node_attrs": {
+          "div": 0.0038532934293136227,
+          "num_date": {
+            "value": 2005.1777514252472
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HA: L30S, W80*, T90K, T180K, S475N, L528P"
+          },
+          "mutations": {
+            "HA": [
+              "L30S",
+              "W80*",
+              "T90K",
+              "T180K",
+              "S475N",
+              "L528P"
+            ],
+            "nuc": [
+              "T109C",
+              "G259A",
+              "C289A",
+              "A398C",
+              "C559A",
+              "T578C",
+              "G1444A",
+              "T1603C",
+              "T1709C",
+              "A1788G",
+              "A1828G",
+              "C1829T",
+              "A1839G"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA: S73P, G133D, K341R, H387R, L548P"
+              },
+              "mutations": {
+                "HA": [
+                  "S73P",
+                  "G133D",
+                  "K341R",
+                  "H387R",
+                  "L548P"
+                ],
+                "nuc": [
+                  "T237C",
+                  "G418A",
+                  "A1042G",
+                  "A1180G",
+                  "T1663C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA: S168L, R444K, P490L, R508K"
+                  },
+                  "mutations": {
+                    "HA": [
+                      "S168L",
+                      "R444K",
+                      "P490L",
+                      "R508K"
+                    ],
+                    "nuc": [
+                      "C523T",
+                      "G1351A",
+                      "C1489T",
+                      "G1543A"
+                    ]
+                  }
+                },
+                "name": "REFERENCE_B/Odessa/3886/2010_EPI_ISL_246495_HA",
+                "node_attrs": {
+                  "div": 0.008248640609014484,
+                  "num_date": {
+                    "value": 2010.213552362244
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA: S30L, G294R, V418A, G496E, A506V"
+                  },
+                  "mutations": {
+                    "HA": [
+                      "S30L",
+                      "G294R",
+                      "V418A",
+                      "G496E",
+                      "A506V"
+                    ],
+                    "nuc": [
+                      "C109T",
+                      "G900A",
+                      "T1273C",
+                      "G1507A",
+                      "C1537T"
+                    ]
+                  }
+                },
+                "name": "REFERENCE_B/Hong_Kong/514/2009_EPI_ISL_70224_HA",
+                "node_attrs": {
+                  "div": 0.008799192988423932,
+                  "num_date": {
+                    "value": 2009.7775496243933
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000028",
+            "node_attrs": {
+              "div": 0.006050517728437134,
+              "num_date": {
+                "value": 2008.3137126240945
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA: E65G, I211T, T443M"
+              },
+              "mutations": {
+                "HA": [
+                  "E65G",
+                  "I211T",
+                  "T443M"
+                ],
+                "nuc": [
+                  "A214G",
+                  "T652C",
+                  "C1348T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA: E280G"
+                  },
+                  "mutations": {
+                    "HA": [
+                      "E280G"
+                    ],
+                    "nuc": [
+                      "G500A",
+                      "A859G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA: T212A, E253G, R423K"
+                      },
+                      "mutations": {
+                        "HA": [
+                          "T212A",
+                          "E253G",
+                          "R423K"
+                        ],
+                        "nuc": [
+                          "A654G",
+                          "A778G",
+                          "G1288A"
+                        ]
+                      }
+                    },
+                    "name": "REFERENCE_B/England/393/2008_EPI_ISL_246488_HA",
+                    "node_attrs": {
+                      "div": 0.007695539501473485,
+                      "num_date": {
+                        "value": 2008.6625598913336
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA: L136P"
+                      },
+                      "mutations": {
+                        "HA": [
+                          "L136P"
+                        ],
+                        "nuc": [
+                          "T427C"
+                        ]
+                      }
+                    },
+                    "name": "REFERENCE_B/Brisbane/60/2008_EPI_ISL_80394_HA",
+                    "node_attrs": {
+                      "div": 0.0065966692720037835,
+                      "num_date": {
+                        "value": 2008.1924054447652
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA: S224N, G271E, R444I"
+                      },
+                      "mutations": {
+                        "HA": [
+                          "S224N",
+                          "G271E",
+                          "R444I"
+                        ],
+                        "nuc": [
+                          "G632A",
+                          "G691A",
+                          "G737A",
+                          "T827C",
+                          "G832A",
+                          "G1351T"
+                        ]
+                      }
+                    },
+                    "name": "REFERENCE_B/Paris/1762/2009_EPI_ISL_60846_HA",
+                    "node_attrs": {
+                      "div": 0.009349298425133786,
+                      "num_date": {
+                        "value": 2009.109514032333
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000025",
+                "node_attrs": {
+                  "div": 0.006047893887512645,
+                  "num_date": {
+                    "value": 2007.7814199966517
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA: L42P, T115I, F167S"
+                  },
+                  "mutations": {
+                    "HA": [
+                      "L42P",
+                      "T115I",
+                      "F167S"
+                    ],
+                    "nuc": [
+                      "T145C",
+                      "C364T",
+                      "T520C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA: E17G, R88L, T212A, F425S, N459S, P528L, V559A"
+                      },
+                      "mutations": {
+                        "HA": [
+                          "E17G",
+                          "R88L",
+                          "T212A",
+                          "F425S",
+                          "N459S",
+                          "P528L",
+                          "V559A"
+                        ],
+                        "nuc": [
+                          "A70G",
+                          "G283T",
+                          "A654G",
+                          "C1277T",
+                          "T1294C",
+                          "A1396G",
+                          "C1603T",
+                          "T1696C",
+                          "A1777G"
+                        ]
+                      }
+                    },
+                    "name": "REFERENCE_B/Malta/MV636714/2011_EPI_ISL_99941_HA",
+                    "node_attrs": {
+                      "div": 0.01155220274774331,
+                      "num_date": {
+                        "value": 2011.1806981527984
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA: I137T, Q398L"
+                      },
+                      "mutations": {
+                        "HA": [
+                          "I137T",
+                          "Q398L"
+                        ],
+                        "nuc": [
+                          "T430C",
+                          "A1213T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA: S73L, F96S, Q184K, T437M, S526F"
+                          },
+                          "mutations": {
+                            "HA": [
+                              "S73L",
+                              "F96S",
+                              "Q184K",
+                              "T437M",
+                              "S526F"
+                            ],
+                            "nuc": [
+                              "A164G",
+                              "C238T",
+                              "T307C",
+                              "C570A",
+                              "C1330T",
+                              "C1597T"
+                            ]
+                          }
+                        },
+                        "name": "REFERENCE_B/Formosa/V2367/2012_EPI_ISL_132257_HA",
+                        "node_attrs": {
+                          "div": 0.010996472499056376,
+                          "num_date": {
+                            "value": 2012.5995893232296
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA: S39*, L367P"
+                              },
+                              "mutations": {
+                                "HA": [
+                                  "S39*",
+                                  "L367P"
+                                ],
+                                "nuc": [
+                                  "C136A",
+                                  "T1120C",
+                                  "A1780G"
+                                ]
+                              }
+                            },
+                            "name": "REFERENCE_B/South_Australia/81/2012_EPI_ISL_172974_HA",
+                            "node_attrs": {
+                              "div": 0.009344273266500037,
+                              "num_date": {
+                                "value": 2012.9117043129627
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA: I16T, D317G, L538P"
+                              },
+                              "mutations": {
+                                "HA": [
+                                  "I16T",
+                                  "D317G",
+                                  "L538P"
+                                ],
+                                "nuc": [
+                                  "T67C",
+                                  "A203G",
+                                  "A970G",
+                                  "T1049C",
+                                  "T1633C"
+                                ]
+                              }
+                            },
+                            "name": "REFERENCE_B/Johannesburg/3964/2012_EPI_ISL_132268_HA",
+                            "node_attrs": {
+                              "div": 0.010443706848068269,
+                              "num_date": {
+                                "value": 2012.5913757708681
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000009",
+                        "node_attrs": {
+                          "div": 0.007696507060862243,
+                          "num_date": {
+                            "value": 2010.1704195010557
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA: *1X, *4X, *10X, *11X, *22X, *41X, *44X, *47X, T79M, *80X, R88Q, R93L, E95G, *112X, I131M, Q176X, K177-, T178X, *188X, *190X, *235X, V259A, G271E, *297X, *298X, *304X, T312M, *318X, *333X, *340X, *344X, *359X, *372X, K373R, *379X, *394X, *407X, *410X, *417X, *422X, *428X, *440X, *442X, *454X, *458X, *469X, *470X, *484X, *493X, *495X, *514X, *532X, *539X, *562X, *564X, *565X, *566X"
+                          },
+                          "mutations": {
+                            "HA": [
+                              "*1X",
+                              "*4X",
+                              "*10X",
+                              "*11X",
+                              "*22X",
+                              "*41X",
+                              "*44X",
+                              "*47X",
+                              "T79M",
+                              "*80X",
+                              "R88Q",
+                              "R93L",
+                              "E95G",
+                              "*112X",
+                              "I131M",
+                              "Q176X",
+                              "K177-",
+                              "T178X",
+                              "*188X",
+                              "*190X",
+                              "*235X",
+                              "V259A",
+                              "G271E",
+                              "*297X",
+                              "*298X",
+                              "*304X",
+                              "T312M",
+                              "*318X",
+                              "*333X",
+                              "*340X",
+                              "*344X",
+                              "*359X",
+                              "*372X",
+                              "K373R",
+                              "*379X",
+                              "*394X",
+                              "*407X",
+                              "*410X",
+                              "*417X",
+                              "*422X",
+                              "*428X",
+                              "*440X",
+                              "*442X",
+                              "*454X",
+                              "*458X",
+                              "*469X",
+                              "*470X",
+                              "*484X",
+                              "*493X",
+                              "*495X",
+                              "*514X",
+                              "*532X",
+                              "*539X",
+                              "*562X",
+                              "*564X",
+                              "*565X",
+                              "*566X"
+                            ],
+                            "nuc": [
+                              "C256T",
+                              "G283A",
+                              "G298T",
+                              "A304G",
+                              "A413G",
+                              "A449G",
+                              "G500A",
+                              "A548-",
+                              "A549-",
+                              "A550-",
+                              "A551-",
+                              "A552-",
+                              "C553-",
+                              "T796C",
+                              "G832A",
+                              "C955T",
+                              "A1138G",
+                              "C1768T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA: T114M, D120G, T160I, X178-, T179X, F195L, S224I, E234G, V292A, G327E"
+                              },
+                              "mutations": {
+                                "HA": [
+                                  "T114M",
+                                  "D120G",
+                                  "T160I",
+                                  "X178-",
+                                  "T179X",
+                                  "F195L",
+                                  "S224I",
+                                  "E234G",
+                                  "V292A",
+                                  "G327E"
+                                ],
+                                "nuc": [
+                                  "C361T",
+                                  "A379G",
+                                  "C499T",
+                                  "G554-",
+                                  "A555-",
+                                  "C556-",
+                                  "T603C",
+                                  "G691T",
+                                  "A721G",
+                                  "T895C",
+                                  "G1000A"
+                                ]
+                              }
+                            },
+                            "name": "REFERENCE_B/Hong_Kong/269/2017_EPI_ISL_276540_HA",
+                            "node_attrs": {
+                              "div": 0.018755254615377002,
+                              "num_date": {
+                                "value": 2017.3942505141947
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA: S511L, E513K"
+                              },
+                              "mutations": {
+                                "HA": [
+                                  "S511L",
+                                  "E513K"
+                                ],
+                                "nuc": [
+                                  "A602G",
+                                  "C1552T",
+                                  "G1557A",
+                                  "T1818G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA: S208F, E393G"
+                                  },
+                                  "mutations": {
+                                    "HA": [
+                                      "S208F",
+                                      "E393G"
+                                    ],
+                                    "nuc": [
+                                      "C643T",
+                                      "A1198G"
+                                    ]
+                                  }
+                                },
+                                "name": "REFERENCE_B/Maryland/15/2016_EPI_ISL_243867_HA",
+                                "node_attrs": {
+                                  "div": 0.017637135692879027,
+                                  "num_date": {
+                                    "value": 2016.9911019857896
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA: M14V, M144V, V472A"
+                                  },
+                                  "mutations": {
+                                    "HA": [
+                                      "M14V",
+                                      "M144V",
+                                      "V472A"
+                                    ],
+                                    "nuc": [
+                                      "A60G",
+                                      "A450G",
+                                      "T1435C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "REFERENCE_B/Colorado/06/2017_EPI_ISL_257735_HA",
+                                    "node_attrs": {
+                                      "div": 0.018188079265379048,
+                                      "num_date": {
+                                        "value": 2017.153319644927
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C1481T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "REFERENCE_B/Norway/2409/2017_EPI_ISL_268030_HA",
+                                    "node_attrs": {
+                                      "div": 0.01873818405880226,
+                                      "num_date": {
+                                        "value": 2017.3203285429422
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000019",
+                                "node_attrs": {
+                                  "div": 0.018188079265379048,
+                                  "num_date": {
+                                    "value": 2017.1470051976735
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000018",
+                            "node_attrs": {
+                              "div": 0.016536104876586126,
+                              "num_date": {
+                                "value": 2016.3407756244583
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA: X1*, X4*, X10*, X11*, X22*, X41*, X44*, X47*, X80*, X112*, X176Q, -177K, X178T, X188*, X190*, X235*, X297*, X298*, X304*, X318*, X333*, X340*, X344*, X359*, X372*, X379*, X394*, X407*, X410*, X417*, X422*, X428*, X440*, X442*, X454*, X458*, X469*, X470*, X484*, X493*, X495*, X514*, X532*, X539*, X562*, X564*, X565*, X566*"
+                              },
+                              "mutations": {
+                                "HA": [
+                                  "X1*",
+                                  "X4*",
+                                  "X10*",
+                                  "X11*",
+                                  "X22*",
+                                  "X41*",
+                                  "X44*",
+                                  "X47*",
+                                  "X80*",
+                                  "X112*",
+                                  "X176Q",
+                                  "-177K",
+                                  "X178T",
+                                  "X188*",
+                                  "X190*",
+                                  "X235*",
+                                  "X297*",
+                                  "X298*",
+                                  "X304*",
+                                  "X318*",
+                                  "X333*",
+                                  "X340*",
+                                  "X344*",
+                                  "X359*",
+                                  "X372*",
+                                  "X379*",
+                                  "X394*",
+                                  "X407*",
+                                  "X410*",
+                                  "X417*",
+                                  "X422*",
+                                  "X428*",
+                                  "X440*",
+                                  "X442*",
+                                  "X454*",
+                                  "X458*",
+                                  "X469*",
+                                  "X470*",
+                                  "X484*",
+                                  "X493*",
+                                  "X495*",
+                                  "X514*",
+                                  "X532*",
+                                  "X539*",
+                                  "X562*",
+                                  "X564*",
+                                  "X565*",
+                                  "X566*"
+                                ],
+                                "nuc": [
+                                  "-548A",
+                                  "-549A",
+                                  "-550A",
+                                  "-551A",
+                                  "-552A",
+                                  "-553C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA: K101R, R405K"
+                                  },
+                                  "mutations": {
+                                    "HA": [
+                                      "K101R",
+                                      "R405K"
+                                    ],
+                                    "nuc": [
+                                      "A322G",
+                                      "G1234A"
+                                    ]
+                                  }
+                                },
+                                "name": "REFERENCE_B/Nordrhein-Westfalen/1/2016_EPI_ISL_208671_HA",
+                                "node_attrs": {
+                                  "div": 0.015429636899470458,
+                                  "num_date": {
+                                    "value": 2016.0109514039962
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HA: S208F, W432*"
+                                      },
+                                      "mutations": {
+                                        "HA": [
+                                          "S208F",
+                                          "W432*"
+                                        ],
+                                        "nuc": [
+                                          "C643T",
+                                          "G1316A"
+                                        ]
+                                      }
+                                    },
+                                    "name": "REFERENCE_B/Ireland/3154/2016_EPI_ISL_208680_HA",
+                                    "node_attrs": {
+                                      "div": 0.015429760048859811,
+                                      "num_date": {
+                                        "value": 2016.0383299118675
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "REFERENCE_B/Iceland/56/2015_(18483)_EPI_ISL_208156_HA",
+                                    "node_attrs": {
+                                      "div": 0.01433168307111381,
+                                      "num_date": {
+                                        "value": 2015.9965776873637
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000015",
+                                "node_attrs": {
+                                  "div": 0.01433168307111381,
+                                  "num_date": {
+                                    "value": 2015.4069208297406
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000014",
+                            "node_attrs": {
+                              "div": 0.01433168307111381,
+                              "num_date": {
+                                "value": 2015.4069208297406
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA: X178-, T179X, L303P, G362E, L367P, I545T"
+                              },
+                              "mutations": {
+                                "HA": [
+                                  "X178-",
+                                  "T179X",
+                                  "L303P",
+                                  "G362E",
+                                  "L367P",
+                                  "I545T"
+                                ],
+                                "nuc": [
+                                  "A470G",
+                                  "G554-",
+                                  "A555-",
+                                  "C556-",
+                                  "T928C",
+                                  "G1105A",
+                                  "T1120C",
+                                  "T1654C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA: M141K, P214L, P225L"
+                                  },
+                                  "mutations": {
+                                    "HA": [
+                                      "M141K",
+                                      "P214L",
+                                      "P225L"
+                                    ],
+                                    "nuc": [
+                                      "T442A",
+                                      "C661T",
+                                      "C694T"
+                                    ]
+                                  }
+                                },
+                                "name": "B/England/194900380/2019_EPI_ISL_408106_HA",
+                                "node_attrs": {
+                                  "div": 0.01874884022320016,
+                                  "num_date": {
+                                    "value": 2019.9089664621756
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA: T114M, T165K, E199K, I248T, W266X, G294R, K438R"
+                                  },
+                                  "mutations": {
+                                    "HA": [
+                                      "T114M",
+                                      "T165K",
+                                      "E199K",
+                                      "I248T",
+                                      "W266X",
+                                      "G294R",
+                                      "K438R"
+                                    ],
+                                    "nuc": [
+                                      "C361T",
+                                      "C514A",
+                                      "G615A",
+                                      "A653G",
+                                      "T763C",
+                                      "G817A",
+                                      "G900A",
+                                      "A1333G"
+                                    ]
+                                  }
+                                },
+                                "name": "B/Scotland/306/2019_EPI_ISL_406101_HA",
+                                "node_attrs": {
+                                  "div": 0.02151605353288001,
+                                  "num_date": {
+                                    "value": 2019.8104038338388
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G461A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HA: I248V"
+                                      },
+                                      "mutations": {
+                                        "HA": [
+                                          "I248V"
+                                        ],
+                                        "nuc": [
+                                          "G449A",
+                                          "A762G"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "HA: R287G"
+                                          },
+                                          "mutations": {
+                                            "HA": [
+                                              "R287G"
+                                            ],
+                                            "nuc": [
+                                              "A879G"
+                                            ]
+                                          }
+                                        },
+                                        "name": "B/England/194700040/2019_EPI_ISL_405140_HA",
+                                        "node_attrs": {
+                                          "div": 0.019297522322794254,
+                                          "num_date": {
+                                            "value": 2019.8733744019428
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "HA: L161S, T386I, S460X"
+                                          },
+                                          "mutations": {
+                                            "HA": [
+                                              "L161S",
+                                              "T386I",
+                                              "S460X"
+                                            ],
+                                            "nuc": [
+                                              "T502C",
+                                              "C1177T",
+                                              "C1399A"
+                                            ]
+                                          }
+                                        },
+                                        "name": "B/England/194880452/2019_EPI_ISL_408015_HA",
+                                        "node_attrs": {
+                                          "div": 0.020401921037110294,
+                                          "num_date": {
+                                            "value": 2019.9007529098142
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000000",
+                                    "node_attrs": {
+                                      "div": 0.01874634015400787,
+                                      "num_date": {
+                                        "value": 2019.061637236014
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HA: M40T, K268R, L354P, M542T"
+                                      },
+                                      "mutations": {
+                                        "HA": [
+                                          "M40T",
+                                          "K268R",
+                                          "L354P",
+                                          "M542T"
+                                        ],
+                                        "nuc": [
+                                          "T139C",
+                                          "A823G",
+                                          "T1081C",
+                                          "T1645C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "HA: I248N, G390E"
+                                          },
+                                          "mutations": {
+                                            "HA": [
+                                              "I248N",
+                                              "G390E"
+                                            ],
+                                            "nuc": [
+                                              "T763A",
+                                              "G1189A"
+                                            ]
+                                          }
+                                        },
+                                        "name": "B/England/194980805/2019_EPI_ISL_408331_HA",
+                                        "node_attrs": {
+                                          "div": 0.020954325836157535,
+                                          "num_date": {
+                                            "value": 2019.9308692684726
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "REFERENCE_B/Washington/02/2019_EPI_ISL_341131_HA",
+                                            "node_attrs": {
+                                              "div": 0.01985061379628817,
+                                              "num_date": {
+                                                "value": 2019.052019166651
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "HA: W266C"
+                                                  },
+                                                  "mutations": {
+                                                    "HA": [
+                                                      "W266C"
+                                                    ],
+                                                    "nuc": [
+                                                      "G818T"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "B/England/194760328/2019_EPI_ISL_405087_HA",
+                                                "node_attrs": {
+                                                  "div": 0.02040174677854381,
+                                                  "num_date": {
+                                                    "value": 2019.8870636558784
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "HA: N357S"
+                                                  },
+                                                  "mutations": {
+                                                    "HA": [
+                                                      "N357S"
+                                                    ],
+                                                    "nuc": [
+                                                      "A1090G"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "B/England/194980797/2019_EPI_ISL_408325_HA",
+                                                    "node_attrs": {
+                                                      "div": 0.020401577045750165,
+                                                      "num_date": {
+                                                        "value": 2019.9253935668983
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "B/England/696/2019_EPI_ISL_408318_HA",
+                                                    "node_attrs": {
+                                                      "div": 0.020401577045750165,
+                                                      "num_date": {
+                                                        "value": 2019.9199178653241
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000006",
+                                                "node_attrs": {
+                                                  "div": 0.020401577045750165,
+                                                  "num_date": {
+                                                    "value": 2019.7792305156233
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000022",
+                                            "node_attrs": {
+                                              "div": 0.01985061379628817,
+                                              "num_date": {
+                                                "value": 2019.0639455992782
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000021",
+                                        "node_attrs": {
+                                          "div": 0.01985061379628817,
+                                          "num_date": {
+                                            "value": 2019.0520191658031
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G446A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "B/England/194280525/2019_EPI_ISL_399819_HA",
+                                            "node_attrs": {
+                                              "div": 0.020401669099968975,
+                                              "num_date": {
+                                                "value": 2019.7885010275418
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "HA: I452T"
+                                              },
+                                              "mutations": {
+                                                "HA": [
+                                                  "I452T"
+                                                ],
+                                                "nuc": [
+                                                  "T1375C"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "B/Scotland/114/2019_EPI_ISL_406100_HA",
+                                                "node_attrs": {
+                                                  "div": 0.020952744355940224,
+                                                  "num_date": {
+                                                    "value": 2019.793976729116
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "HA: T129M, P367L, T541M"
+                                                  },
+                                                  "mutations": {
+                                                    "HA": [
+                                                      "T129M",
+                                                      "P367L",
+                                                      "T541M"
+                                                    ],
+                                                    "nuc": [
+                                                      "C406T",
+                                                      "C1120T",
+                                                      "C1642T"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "B/Northern_Ireland/1566/2020_EPI_ISL_407597_HA",
+                                                "node_attrs": {
+                                                  "div": 0.022607455389626482,
+                                                  "num_date": {
+                                                    "value": 2020.0383299118675
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "HA: S126F"
+                                                  },
+                                                  "mutations": {
+                                                    "HA": [
+                                                      "S126F"
+                                                    ],
+                                                    "nuc": [
+                                                      "C397T"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "HA: R444K"
+                                                      },
+                                                      "mutations": {
+                                                        "HA": [
+                                                          "R444K"
+                                                        ],
+                                                        "nuc": [
+                                                          "G1351A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "B/Northern_Ireland/1804/2020_EPI_ISL_407598_HA",
+                                                    "node_attrs": {
+                                                      "div": 0.022054966957558955,
+                                                      "num_date": {
+                                                        "value": 2020.0438056134417
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "HA: Q197K, E349G"
+                                                      },
+                                                      "mutations": {
+                                                        "HA": [
+                                                          "Q197K",
+                                                          "E349G"
+                                                        ],
+                                                        "nuc": [
+                                                          "C609A",
+                                                          "A1066G"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "name": "B/Northern_Ireland/640/2020_EPI_ISL_407599_HA",
+                                                    "node_attrs": {
+                                                      "div": 0.022606750053404415,
+                                                      "num_date": {
+                                                        "value": 2020.0191649563576
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000010",
+                                                "node_attrs": {
+                                                  "div": 0.021503819341319137,
+                                                  "num_date": {
+                                                    "value": 2019.7851316202598
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000008",
+                                            "node_attrs": {
+                                              "div": 0.020952744355940224,
+                                              "num_date": {
+                                                "value": 2019.6500893313848
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000007",
+                                        "node_attrs": {
+                                          "div": 0.020401669099968975,
+                                          "num_date": {
+                                            "value": 2019.496174924992
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000002",
+                                    "node_attrs": {
+                                      "div": 0.01985061379628817,
+                                      "num_date": {
+                                        "value": 2019.0452370832936
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000001",
+                                "node_attrs": {
+                                  "div": 0.01764342109996404,
+                                  "num_date": {
+                                    "value": 2017.8031453869357
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000011",
+                            "node_attrs": {
+                              "div": 0.017092238959806303,
+                              "num_date": {
+                                "value": 2017.291484173368
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000013",
+                        "node_attrs": {
+                          "div": 0.01433168307111381,
+                          "num_date": {
+                            "value": 2015.4069208297406
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000020",
+                    "node_attrs": {
+                      "div": 0.007696507060862243,
+                      "num_date": {
+                        "value": 2010.1704195010557
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000023",
+                "node_attrs": {
+                  "div": 0.006597506221592594,
+                  "num_date": {
+                    "value": 2008.5845345893256
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000024",
+            "node_attrs": {
+              "div": 0.004949831826235648,
+              "num_date": {
+                "value": 2007.4209548396884
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000027",
+        "node_attrs": {
+          "div": 0.003301942110311711,
+          "num_date": {
+            "value": 2006.2302199657095
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000003",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2002.8406060917966
+      }
+    }
+  },
+  "version": "v2"
+}
